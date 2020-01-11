@@ -12,3 +12,4 @@ for android
 $ npx react-native run-android
 ```
 # Sample Picture from the Project
+![](images/project_photos_1.png)
