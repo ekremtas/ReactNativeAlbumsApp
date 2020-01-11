@@ -18,6 +18,7 @@ const style = StyleSheet.create({
     textStyle: {
         fontSize: 30,
         fontFamily: 'Times New Roman',
+        color: 'black',
     },
     headerView: {
         backgroundColor: 'purple',
@@ -26,9 +27,9 @@ const style = StyleSheet.create({
         justifyContent: 'center',
         marginTop: 50,
         shadowOffset: { width: 0, height: 5 },
-        shadowOpacity: 0.2,
-
+        shadowOpacity: 0.2
     }
+
 });
 
 

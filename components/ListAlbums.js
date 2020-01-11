@@ -23,7 +23,7 @@ class ListAlbums extends Component {
         return this.state.data.map(
             responseData =>
                 //<Text key={this.state.data.indexOf(responseData)} > {"key : " + this.state.data.indexOf(responseData) + " ->" + responseData.title}</Text >
-                <Detail key={this.state.data.indexOf(responseData)} DetailData={responseData} />
+                <Detail key={this.state.data.indexOf(responseData)} id={this.state.data.indexOf(responseData)} DetailData={responseData} />
 
         );
     }
@@ -33,7 +33,6 @@ class ListAlbums extends Component {
         console.log("render");
         return (
             <ScrollView>
-                <Text>ListAlbums</Text>
                 {this.renderData()}
             </ScrollView>
         );
