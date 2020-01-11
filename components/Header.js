@@ -11,7 +11,7 @@ class Header extends Component {
                 <Text style={style.textStyle}>{headerText}</Text>
             </View>
         );
-    };
+    }
 }
 
 const style = StyleSheet.create({
